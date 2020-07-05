@@ -1,3 +1,60 @@
+v.2.0.4
+-------
+
+- Fixes to all half, quarter and eights blocks, ░, ▒, ▓, ⍲, X, Ò, Ó, Ô,
+  Õ, Ö, Ō, ō, Ŏ, ￩, ￪, ￫, ￬
+- Make APL chars look nicer
+- Adjust OS/2 metrics
+- Set vertical advance to 0
+- Added vertical metrics
+  (https://fontforge.org/fontinfo.html#PS-General)
+- Removed 🍺, 🍻, 💖, 💡, 😪
+- Added ➥, ➦, Unicode 13 Symbols for Legacy Computing
+- Sample rendering now includes blurred easily confused pairs
+- Added sample generation using actual terminal software (on Linux) so
+  that the README file shows a current version of the font.
+- Branch cleanup (back to master/develop)
+- Set version to 2.0.4 (next release)
+
+v.2.0.3
+-------
+
+- Skipping FontBakery tests on TravisCI for now
+- Makefile now defaults to `help` target instead of `font`
+- Build script and Makefile fixes
+- Glyph simplification and composition improvements
+- Adjust unitsPerEm to 2000, update `generate_derived.pe`
+- Added correct foundry identifier (3270)
+- Renamed base font
+- Added ⁴, −
+- Removed slots below 0x1f
+- Set version to 2.0.3 (next release)
+
+v.2.0.2
+-------
+
+- Add ★, ⚑, ✚
+- Instal .ttf files by default
+- Set grid fit and anti-alias to all sizes
+- Added SIL license to the font file
+- Adjusted font name, family name and derived font names
+- Force width to 540 units when building derived fonts
+- Set ΤεΧ space to 540 (normal glyph width)
+- Set Italic Angle to 0
+- Set OS/2 Style Map to Regular
+- Update copyright notice
+- Sorted symbols in the SFD file
+- Set version to 2.0.2 (next release)
+
+v.2.0.1
+-------
+
+- Added ◢, ◣, ◤, ◥, ▮, and ◆
+- Use new AWS S3 vhost-based names, add HTTPS where applicable
+- Set version to 2.0.1 (next release)
+- New implementation for ℅, add ℆
+- New implementation for ‘, ’, “, and ”
+
 v.2.0.0
 -------
 
